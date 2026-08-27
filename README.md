@@ -2,6 +2,12 @@
 
 An Arduino UNO based autonomous line follower robot using an 8-channel IR sensor array, TB6612FNG motor driver, and two N20 600 RPM geared motors.
 
+## Project Photos
+
+![8-Array Line Follower Robot](images/robot-gallery.jpg)
+
+*Photos of the completed robot, sensor array, chassis, wiring, and track testing.*
+
 ## Overview
 
 The robot detects and follows a black track on a white surface. Eight infrared sensors provide the line-position information, while the Arduino UNO processes the sensor readings and controls the two motors through the TB6612FNG driver.
@@ -82,6 +88,8 @@ The project is programmed using the Arduino IDE. The control code reads all eigh
 ```text
 8-Array-Line-Follower/
 ├── README.md
+├── images/
+│   └── robot-gallery.jpg
 ├── code/
 │   ├── line_follower.ino
 │   └── motor_test.ino
